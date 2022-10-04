@@ -1,0 +1,6 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('./images/bg-desktop.svg');
+  background-color: hsl(257deg 40% 49%);
+}
