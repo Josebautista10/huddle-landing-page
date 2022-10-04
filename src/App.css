@@ -8,6 +8,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.App {
+  display:flex;
+  flex-direction: column;
+}
+
 .header {
   margin-bottom: 5%;
   font-family: 'Poppins', sans-serif;
@@ -45,4 +50,42 @@ body {
   color: hsl(257deg 40% 49%);
   border-radius: 30px;
   height: 10%;
+  transition:0.3s
+}
+
+.info-container button:hover{
+  color: white;
+  background-color:hsl(300, 69%, 71%);
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.icons-container {
+  font-size: 20px;
+  width:15%;
+  display: flex;
+  justify-content:space-evenly;
+  color: white;
+  margin-right: 5%;
+}
+
+.icons-container a {
+  font-size: 20px;
+  width:10%;
+  padding: 5%;
+  border-radius: 50px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.icons-container a:hover {
+  color:hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
 }
